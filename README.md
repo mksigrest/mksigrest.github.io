@@ -1,2 +1,16 @@
 # mksigrest.github.io
-This is my porfolio page showing projects I have completed/worked on
+Maxwell Sigrests Portfolio
+
+This is my portfolio page showing work I have completed/worked on.
+
+HTML/CSS Projects
+
+C# Projects
+
+Design Projects
+
+Misc Projects
+
+About Me
+
+Contact Me
