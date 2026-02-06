@@ -45,6 +45,15 @@ a:active{
   text-decoration: underline;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+.imgInfPage{
+  max-width: 33%;
+  height: auto;
+}
+
 header {
   text-align: center;
   padding: 20px 0;
