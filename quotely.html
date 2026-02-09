@@ -9,18 +9,36 @@
 <body>
   <header>
     <h1>Quotely Information Page</h1>
-    <h3><a href="index.html">Home</a></h3>
+    <h3><a href="index.html">Home</a>   <a href="quotely.html">Quotely Social Media Site</a>   <a href="advdom.html">Adventure DOM Game</a></h3>
   </header>
 
   <main>
     <section id="projects">
-      <h2>My Projects</h2>
       <div class="project-list">
         <article class="project-item-indv">
           <header><h3>Quotely</h3></header>
           <img src="" alt="Screenshot" loading="lazy">
           <h4>Role: Project Manager and Developer</h4><h4>Languagues Used: Javascript, Handlebars, CSS</h4><h4>Programs Used: Heroku, React, Visual Studio, Github</h4>
-          <p>Led the end-to-end delivery of a social media web application for sharing user-submitted quotes, building a full-stack platform using React for UI components and MongoDB for data storage</p>
+          <p>Led the end-to-end delivery of a social media web application for sharing user-submitted 
+            quotes, building a full-stack platform using React for UI components and MongoDB for data storage</p>
+          <p>What is the purpose of your application? What does it do?
+                My application is a social media site, where you post quotes that you want to share with the world! Quotes can be from anywhere, perhaps a relative, something from history, or even something from pop culture. In this site you can share your quotes with the world, or see quotes others have posted. Quotes can be filtered by the poster and it’s “feel”, being sad, funny, or happy. This site is free with ads, but you can go premium to have an add free experience.
+                How are you using React? What components do you have?
+                I am using react for three separate pages: The login page, creator, and viewer page. React is used in the login, logout, and the ability to change passwords. The change password ability is on the creator page. (1) React is used on both the creator and viewer page for the premium/free membership status. (2) It is also used in the TweetStats function for updating the amount of personal quotes in real time. (3-4) It is used in the toggling of users and feels for narrowing down quotes for viewing. (5) It is used in getting account data for viewing in the creator page, and (6) it is used for quote loading in the creator page as well. (7) It is also used in the ability to edit quote types and feels after they are created.
+                What data are you storing in MongoDB?
+                I am storing two different types of data on MongoDB, account data and quote data. Account data includes username, current password, and creation date. Quote data includes Author, Poster(user who made post), content, type (public, private), and creation date. All of this data is stored on MongoDB.
+                What went right in the development of this project?
+                A lot went right in the development of this project. Getting to do my own site from both front-end dev to back-end dev was a fun process to be apart off, and will be a great way to show off my skills in the department. Getting the basics of twitter into Quotely was a spur of the moment idea from myself, and one that I am really proud of. I never got caught anywhere too hard in the development, which is not something that happens often for myself.
+                What went wrong in the development of this project?
+                The thing I struggled with most of this project was the CSS refactoring. I think I got it to look well enough, but it can come across easily that I am not a designer. I find it much easier to take other peoples ideas from sites of drawings and implements rather than create my own on the spur of the moment. I did better with time management in this project than I did in project 1, but still gave myself a little extra to do on the last day, which could have been tightened up.
+                What did you learn while developing this project?
+                MongoDB, React, handlebars, and Redis were all enhanced skills from Domo-maker that I got to play around with more. I got more comfortable with resetting stored data in mongo which is a must when adding new types of data to your project. I also had to relearn a bit of CSS which I have not used in about a year so that was nice. If you were to continue, what would you do to improve your application?
+                I would like to tidy up the CSS and code before anything else. A bunch of function and content names are still based on my original idea of creating a twitter site, and I didn’t have time to rename them, so the comments are the best for understanding. Sitting down and creating a nice design layout is the next best logical standpoint as well. I could also add the ability to delete a quote completely. One more thing I would do is add a user search function for the viewer page. It currently works well with a limited number of users, but if that were to grow exponentially, a new way to narrow down quotes by users is a must have.
+                If you went above and beyond, how did you do so?
+                My above and beyond came from the ability to edit quotes after they were created. This was something I initially planned to do anyways, but took more work than I thought. This went along the vein of updating the user's password, but worked in tandem with the ability to see quotes on the viewer page (if private/public switch) or filter those quotes (feel switch) which would be implemented. I used react to follow the state changes from the maker switch.
+                If you used any borrowed code or code fragments, where did you get them from? What do the code fragments do? Where are they in your code?
+                I borrowed the code from DomoMaker, handling the login, logout, sign in, and sign up functions of the code. They came from my own work in the previous domomaker
+                project. They are in the helper.js, login.jsx, app.js, some of the router.js, and some of the code in both models and controllers account.js. This code has all references of Domo Removed from it, and it is 100% for the use of quotely.  </p>
           <a href="https://github.com/mksigrest/project-2-430-twitter">View Github Repo</a>
         </article>
       </div>
